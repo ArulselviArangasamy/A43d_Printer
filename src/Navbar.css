@@ -5,9 +5,75 @@
     align-items: center;
     padding: 20px 50px;
     background-color: #adc16a;
-    position: fixed;
+position: fixed;
     width: 100%;
     top: 0;
     left: 0;
     z-index: 1000;
+}
+.navbar .logo{
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+}       
+.navbar ul.nav-links{
+    display: flex;
+    gap: 20px;
+}
+.navbar ul.nav-links li{
+    list-style: none;
+}
+.navbar ul.nav-links li a{
+    text-decoration: none;
+    color: #fff;
+    
+}
+.navbar ul.nav-links li a:hover{
+    color: #000;
+    transition: all 0.3s ease;
+}
+.nav-login{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.nav-login ul{
+    display: flex;
+    gap: 20px;
+}
+.nav-login li{
+    list-style: none;
+}
+.nav-login li a{
+    text-decoration: none;
+    color: #fff;
+    
+}
+
+.nav-login li a:hover{
+    color: #000;
+    transition: all 0.3s ease;
+}
+.nav-login .cart-icon{
+        font-size: 20px;
+        color: #fff;
+    }
+.nav-login .cart-icon:hover{
+    color: #000;
+    transition: all 0.3s ease;
+}
+.nav-login
+    .cart-count{
+        position: absolute;
+        top: -5px;
+        right: -10px;
+        background-color: red;
+        color: #fff;
+        border-radius: 50%;
+        padding: 2px 6px;
+        font-size: 12px;
+    }
+.nav-login .cart-count:hover{
+    color: #000;
+    transition: all 0.3s ease;
 }

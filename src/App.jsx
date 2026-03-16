@@ -7,24 +7,22 @@ import Home from './Landing/Home'
 import Product from './Landing/Product'
 import Wishlist from './Landing/Wishlist'
 import Contact from './Landing/Contact'
-
+import Login from './Landing/Login'
+import Cart from './Landing/Cart'
+import './CSS/Landing.css'
 function App() {
   return (
     <>
     <Navbar/>
     <Routes>
-    <Route path="/Landing/Home" element={<Home/>}/>
-      <Route path="/Landing/Products" element={<Product/>}/>
-      <Route path="/Landing/Wishlist" element={<Wishlist/>}/>
-      <Route path="/Landing/Contact" element={<Contact/>}/>
-    </Routes>
+    <Route path="/Home" element={<Home/>}/>
+      <Route path="/Products" element={<Product/>}/>
+      <Route path="/Wishlist" element={<Wishlist/>}/>
+      <Route path="/Contact" element={<Contact/>}/>
+      <Route path="/Login" element={<Login/>}/>
+      <Route path="/Cart" element={<Cart/>}/>
 
-     
-   
-      <div className="App">
-        <h1>A43dPrinter</h1>
-        <p>3D printing made easy.</p>
-      </div>
+    </Routes>
     </>
   )
 }
