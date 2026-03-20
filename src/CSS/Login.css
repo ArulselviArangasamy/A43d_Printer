@@ -49,3 +49,20 @@
 .login-form .register-link a:hover{
     color: #0056b3;
 }
+.register-link a{
+    text-decoration: none;
+    color: #007bff;
+}
+.register-link a:hover{
+    color: #0056b3;
+}   
+.forgot-password{
+    font-size: 14px;
+}
+.forgot-password a{
+    text-decoration: none;
+    color: #007bff;
+}
+.forgot-password a:hover{
+    color: #0056b3;
+}

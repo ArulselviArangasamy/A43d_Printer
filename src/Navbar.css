@@ -77,3 +77,7 @@ position: fixed;
     color: #000;
     transition: all 0.3s ease;
 }
+.logo a{
+    text-decoration: none;
+    color: #fff;
+}
