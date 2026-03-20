@@ -1,17 +1,17 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { Link, NavLink } from 'react-router-dom'
 import './Navbar.css'
 export default function Navbar({ cartCount, wishlistCount }) {
   return (
     <div className="navbar">
         <div>
-            <h2 className='logo'><Link to="/Home">A43D Printing</Link></h2>
+            <h2 className='logo'><Link to="/">A43D Printing</Link></h2>
         </div>
         <ul className='nav-links'>
-            <li><Link to="/Home">Home</Link></li>
-            <li><Link to="/Products">Products</Link></li>
-            <li><Link to="/Wishlist">Wishlist</Link></li>
-            <li><Link to="/Contact">Contact</Link></li>
+            <li><NavLink to="/">Home</NavLink></li>
+            <li><NavLink to="/Products">Products</NavLink></li>
+            <li><NavLink to="/Wishlist">Wishlist</NavLink></li>
+            <li><NavLink to="/Contact">Contact</NavLink></li>
         </ul>
         <div className='nav-login'>
             <ul>

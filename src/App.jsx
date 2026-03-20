@@ -37,7 +37,7 @@ function App() {
     <>
     <Navbar cartCount={cart.length} wishlistCount={wishlist.length} />
     <Routes>
-      <Route path="/Home" element={<Home/>}/>
+      <Route path="/" element={<Home/>}/>
       <Route path="/Products" element={<Product addToCart={addToCart} addToWishlist={addToWishlist}/>}/>
       <Route path="/Wishlist" element={<Wishlist wishlistItems={wishlist} />}/>
       <Route path="/Contact" element={<Contact/>}/>

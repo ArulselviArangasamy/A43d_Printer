@@ -32,6 +32,11 @@ position: fixed;
     color: #000;
     transition: all 0.3s ease;
 }
+
+.navbar ul.nav-links li a.active{
+    color: #000;
+    transition: all 0.3s ease;
+}
 .nav-login{
     display: flex;
     gap: 20px;

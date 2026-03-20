@@ -3,11 +3,12 @@ import { Link } from 'react-router-dom'
 
 export default function Product({ addToCart, addToWishlist }) {
   const products = [
-    { id: 1, name: "Bunny Decor", price: 29.99, rating: 4.5, image: "/src/assets/images/BunnyDecor.jpg" },
-    { id: 2, name: "Vase", price: 29.99, rating: 4.5, image: "/src/assets/images/Vase.jpg" },
-    { id: 3, name: "Rain Planter", price: 29.99, rating: 4.5, image: "/src/assets/images/RainPlanter.jpg" },
-    { id: 4, name: "Chess Set", price: 29.99, rating: 4.5, image: "/src/assets/images/chess.jpg" },
-    { id: 5, name: "Earrings", price: 29.99, rating: 4.5, image: "/src/assets/images/earring2.jpg" },
+    
+    { id: 1, name: "Bunny Decor", price: 29.99, rating: 4.5, image:"/images/BunnyDecor.jpg" },
+    { id: 2, name: "Vase", price: 29.99, rating: 4.5, image: "/images/Vase.jpg" },
+    { id: 3, name: "Rain Planter", price: 29.99, rating: 4.5, image: "/images/RainPlanter.jpg" },
+    { id: 4, name: "Chess Set", price: 29.99, rating: 4.5, image: "/images/chess.jpg" },
+    { id: 5, name: "Earrings", price: 29.99, rating: 4.5, image: "/images/earring2.jpg" },
   ];
 
   return (
@@ -31,6 +32,8 @@ export default function Product({ addToCart, addToWishlist }) {
             {products.map((product) => (
               <div className='product_item' key={product.id}>
                 <div className='product_item_img'> 
+                 
+                
                   <img src={product.image} alt={product.name} />
                 </div>
                 <div className='product_item_name'>

@@ -1,5 +1,5 @@
 import React from 'react'
-import Banner from '../assets/images/banner.jpg'
+import Banner from '/images/banner.jpg'
 import { Link } from 'react-router-dom'
 
 export default function Home() {
