@@ -44,8 +44,8 @@
 /*Product */
 .Product_list{
         display: flex;
-    justify-content: space-between;
-   /* align-items: center;*/
+  /*  justify-content: space-between;
+    align-items: center;*/
     padding: 20px;
 width: 200px;
  
@@ -206,6 +206,11 @@ width: 200px;
 
 }
 .Leftside_menu ul li a:hover{
+    color: #007bff;
+    transition: color 0.3s ease;
+
+    }
+    .Leftside_menu ul li a.active{
     color: #007bff;
     transition: color 0.3s ease;
 

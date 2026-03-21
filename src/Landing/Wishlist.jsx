@@ -14,7 +14,7 @@ export default function Wishlist({ wishlistItems = [] }) {
               <p >Price: ${item.price}</p>
               {/* Optional: Add a button here to move item to cart */}
               <Link to="/Products">
-                 View Produc
+                 View Product
               </Link>
             </div>
           ))}
